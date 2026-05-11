@@ -18,6 +18,7 @@
 ```bash
 python examples/demo.py
 python -m unittest discover -s tests
+open docs/visual_report.html
 python -m federated_model_watermark.cli --message "demo payload" --report docs/cli_report.md
 ```
 
